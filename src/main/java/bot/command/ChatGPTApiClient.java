@@ -23,7 +23,6 @@ public class ChatGPTApiClient {
     public void search(long chatId, String messageText) {
         String url = "https://api.openai.com/v1/chat/completions";
         String api = telegramBot.getChatGPTApi();
-               // "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"
         String model = "gpt-3.5-turbo";
 
         try {
